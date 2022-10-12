@@ -1,0 +1,58 @@
+select {
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  padding-left: 1em;
+}
+
+.select-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#white {
+  background-color: white;
+}
+
+#turqoise {
+  background-color: turquoise;
+}
+
+#black {
+  background-color: black;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#red {
+  background-color: red;
+}
+
+#grey {
+  background-color: grey;
+}
+
+.colors {
+  list-style: none;
+  padding: 5px;
+  display: inline-grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 15px;
+}
+
+.colors li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
